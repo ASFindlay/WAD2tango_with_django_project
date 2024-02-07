@@ -37,6 +37,8 @@ SECRET_KEY = 'hx5yf3fm0_we48i__^6__t$&@md8$byp%3ws!)*g!#)z^prx-t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 ALLOWED_HOSTS = []
 
 MEDIA_ROOT = MEDIA_DIR
